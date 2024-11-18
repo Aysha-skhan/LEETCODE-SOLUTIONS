@@ -29,14 +29,11 @@ def parseBoolExpr( expression: str):
                     t = arth.pop()
                     temp = t or temp
                 eval.append(temp)
-                # print(arth)
             elif op=='&':
                 temp=arth.pop()
                 for k in range(len(arth)):
                     t=arth.pop()
                     temp= t and temp
-                    # print(temp, 'temp&')
-                # print(arth,'aftr')
                 eval.append(temp)
     if eval[0]==0:
         return False
