@@ -1,6 +1,6 @@
 def parseBoolExpr( expression: str):
-    eval=[]
-    arth=[]
+    eval = []
+    arth = []
     for z in range(len(expression)):
         if expression[z]!=')' and expression[z]!=',':
             if expression[z]=='f':
@@ -10,15 +10,12 @@ def parseBoolExpr( expression: str):
             else:
                 eval.append(expression[z])
         elif expression[z]==')':
-            # print(arth,'new')
             v=')'
             while v!='(':
                 v=eval.pop()
                 if v!='(':
                     arth.append(v)
             op=eval.pop()
-            # print(arth,'arth',op,'operator')
-            # print(eval,'eval')
             if op=='!':
                 result=not arth.pop()
                 if result==False:
@@ -31,8 +28,6 @@ def parseBoolExpr( expression: str):
                 for k in range(len(arth)):
                     t = arth.pop()
                     temp = t or temp
-                    # print(temp,'temp|')
-                # print(arth, 'aftr')
                 eval.append(temp)
                 # print(arth)
             elif op=='&':
