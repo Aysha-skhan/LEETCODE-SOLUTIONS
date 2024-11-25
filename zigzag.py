@@ -4,8 +4,10 @@ def convert(self, s: str, numRows: int) -> str:
         ans=['']*numRows
         ind = 0
         for k in range(len(s)):
+                
             if ind==0:
                 flag=True
+                # print(ind)
             elif ind==numRows-1:
                 flag=False
             if flag:
