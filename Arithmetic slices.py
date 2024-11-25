@@ -10,6 +10,7 @@ def numberOfArithmeticSlices(nums):
             cnt+=1
         else:
             # print(extra)
+            # print(chkkk)
             for t in range(len(extra)):
                 if chkkk-(extra[t]+2)>=1:
                     cnt+=chkkk-(extra[t]+2)
