@@ -18,6 +18,7 @@ def findLHS(nums):
             if key==-1 and (0 in counts):
                 if val+counts[0]>maxx:
                     maxx=val+counts[0]
+                    # print(maxx)
         else:
             check=key+1
             # print(check)
