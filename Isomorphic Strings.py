@@ -29,6 +29,7 @@ def isIsomorphic(s: str, t: str):
                     wrong+=1
                     break
             elif t[k] in check_for_single_mapping.values():
+                # print(t[k])
                 wrong += 1
                 break
             else:
