@@ -9,6 +9,7 @@ def findLHS(nums):
     maxx=0
     for key,val in counts.items():
         if key<0:
+            # print(counts)
             check=-(abs(key)+1)
             # print(check)
             if check in counts:
