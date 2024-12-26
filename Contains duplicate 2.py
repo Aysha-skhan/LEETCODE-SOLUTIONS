@@ -14,6 +14,7 @@ def containsNearbyDuplicate(nums, k):
                 print(chk)
                 if chk<=k:
                     return True
+                    # no
     return False
 
 print(containsNearbyDuplicate([1],2))
