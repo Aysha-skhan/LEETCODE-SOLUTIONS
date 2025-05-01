@@ -1,3 +1,4 @@
+#beats 100$
 def strStr(haystack: str, needle: str) -> int:
     if len(haystack) == len(needle):
         if haystack == needle:
