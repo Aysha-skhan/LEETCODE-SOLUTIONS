@@ -1,4 +1,4 @@
-def generateParenthesis(self, n: int) -> List[str]:
+def generateParenthesis(n):
     result=[]
     def check(comb,left,right):
         if left==n and right==n:
