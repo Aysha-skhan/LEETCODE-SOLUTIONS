@@ -1,4 +1,5 @@
 class Solution:
+    # space complexity is good but time 32ms
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         d={}
         for k in range(len(magazine)):
