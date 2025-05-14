@@ -3,7 +3,7 @@ class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         min_coins_needed=[amount+1]*(amount+1)
         min_coins_needed[0]=0
-
+        # CURRENT
         for curr_amount in range(1,amount+1):
             for curr_coin in coins:
                 if curr_amount - curr_coin >=0:
