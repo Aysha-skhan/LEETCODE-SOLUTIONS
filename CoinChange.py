@@ -1,4 +1,5 @@
 class Solution:
+    # dp used if cant come up with amount return -1
     def coinChange(self, coins: List[int], amount: int) -> int:
         min_coins_needed=[amount+1]*(amount+1)
         min_coins_needed[0]=0
