@@ -15,5 +15,3 @@ class Solution:
                 c=1
         if c>=(len(nums)//2):
                     return curr
-
-        
