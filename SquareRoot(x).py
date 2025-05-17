@@ -1,3 +1,4 @@
+# rough binary search
 def mySqrt(self, x: int) -> int:
     chk=x//2
     if x==1:
