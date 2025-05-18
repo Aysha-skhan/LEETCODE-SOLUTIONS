@@ -1,3 +1,4 @@
+# dp easy problem
 def generate(self, numRows: int) -> List[List[int]]:
     t=[[]]
     for n in range(numRows):
