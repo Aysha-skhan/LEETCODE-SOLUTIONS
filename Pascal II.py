@@ -1,4 +1,4 @@
-def getRow(self, rowIndex: int) -> List[int]:
+def getRow(rowIndex):
     t=[[]]
     for n in range(rowIndex+1):
         if n==0:
