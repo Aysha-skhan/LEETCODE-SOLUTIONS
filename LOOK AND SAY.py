@@ -1,3 +1,4 @@
+# leetcode
 def lookAndSequence(n,s='11'):
     if n==0:
         return s
