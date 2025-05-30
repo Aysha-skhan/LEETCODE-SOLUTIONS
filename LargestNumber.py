@@ -1,4 +1,4 @@
-    def largestNumber(self, nums: List[int]) -> str:
+    def largestNumber(nums)r:
         nums_str = list(map(str, nums))
         n = len(nums_str)
         
