@@ -1,4 +1,3 @@
-class Solution:
     def largestNumber(self, nums: List[int]) -> str:
         nums_str = list(map(str, nums))
         n = len(nums_str)
