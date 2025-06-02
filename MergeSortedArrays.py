@@ -1,4 +1,4 @@
-def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+def merge(nums1, m, nums2, n):
     midx = m - 1
     nidx = n - 1 
     right = m + n - 1
