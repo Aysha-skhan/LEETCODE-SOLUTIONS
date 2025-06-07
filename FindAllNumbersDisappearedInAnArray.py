@@ -1,4 +1,4 @@
-def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+def findDisappearedNumbers(nums):
     res={}
     for y in range(1,len(nums)+1):
         res[y]=0
