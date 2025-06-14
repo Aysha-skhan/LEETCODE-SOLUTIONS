@@ -1,5 +1,5 @@
-class Solution:
-    def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
+
+    def shortestCompletingWord(self, licensePlate: str, words: List[str]):
         d = {}
         result = []
         for y in range(len(licensePlate)):
