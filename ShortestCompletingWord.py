@@ -18,7 +18,6 @@ def shortestCompletingWord(self, licensePlate: str, words: List[str]):
                     chk = -1
                     break
             if chk ==0 :
-                # print('yes')
                 result.append(words[m])
     minn = len(result[0])
     ans = result[0]
