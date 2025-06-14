@@ -8,7 +8,6 @@ def shortestCompletingWord(self, licensePlate: str, words: List[str]):
                 d[c] += 1
             else:
                 d[c] = 1
-    # print(d)
     for m in range(len(words)):
         if len(words[m]) >= len(d):
             # print('check-->',words[m])
