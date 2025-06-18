@@ -1,4 +1,4 @@
-def countBits(self, n: int) -> List[int]:
+def countBits(n):
     res=[0,1]
     if n==0 :
         return [0]
