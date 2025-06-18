@@ -1,4 +1,5 @@
 def countBits(n):
+    #divide again and again by 2 unless 0 or 1 (instead use dp)
     res=[0,1]
     if n==0 :
         return [0]
