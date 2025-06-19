@@ -11,4 +11,5 @@ def countBits(n):
         else:
             res.append((res[y//2])+1)
     return res
+    
         
