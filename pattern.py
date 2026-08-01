@@ -10,4 +10,3 @@ def generateParenthesis(n):
             check(comb+')',left,right+1)
     check('',0,0)
     return result
-    # yhurot
