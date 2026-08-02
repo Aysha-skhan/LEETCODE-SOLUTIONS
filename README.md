@@ -9,7 +9,6 @@ Leetcode problem solutions posted after successful submission of the problems!
 - **Arrays**
 - **Strings**
 - **Dynamic Programming**
-- **Graphs**
 - **Backtracking**
 - **Tree/Trie**
 - **Two Pointers**
