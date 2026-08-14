@@ -1,5 +1,5 @@
 # LEETCODE-SOLUTIONS
-Leetcode problem solutions posted after successful submission of the problems!
+Leetcode problem solutions posted after successful submission of the problems.
 
 - **Solution files**: Code written in one or more languages.
 
