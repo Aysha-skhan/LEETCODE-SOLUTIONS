@@ -1,0 +1,18 @@
+class Solution:
+    def reverseBits(self, n: int) -> int:
+        stk=[]
+        while n>=2:
+            # print(n,">",n%2,"append")
+            stk.append(n%2)            
+            n=n//2          
+        stk.append(n)
+        while len(stk)<32:
+            stk.append(0)
+        new_num=0
+        mul=1
+        # print(stk)
+        while len(stk)>0:
+            bit=stk.pop()
+            new_num+=bit*mul
+            mul*=2
+        return new_num
