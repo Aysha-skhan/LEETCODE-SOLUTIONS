@@ -10,7 +10,7 @@ Leetcode problem solutions posted after successful submission of the problems.
 - **Strings**
 - **Dynamic Programming**
 - **Backtracking**
-- **Tree/Trie**
+- **Tree**
 - **Two Pointers**
 - **Math**
 - **Recursion**
