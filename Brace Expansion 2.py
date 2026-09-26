@@ -12,7 +12,7 @@ class Solution:
 
             # Find matching '{'
             l = s.rfind('{', 0, r)
-
+            left = s[:l]
             right = s[r + 1:]
 
             # Content inside { }
