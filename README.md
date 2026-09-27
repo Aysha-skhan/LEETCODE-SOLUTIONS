@@ -1,7 +1,7 @@
 # LEETCODE-SOLUTIONS
 Leetcode problem solutions posted after successful submission of the problems.
 
-- **Solution files**: Code written in one or more languages.
+- **Solution files**: Code written in more than one language.
 
 ---
 
