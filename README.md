@@ -13,6 +13,7 @@ Leetcode problem solutions posted after successful submission of the problems.
 - **Tree**
 - **Two Pointers**
 - **Math**
+- **Greedy**
 - **Recursion**
 
 ## 🚀 Getting Started
